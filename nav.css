@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    list-style-type: none;
+    padding: 5em;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+a {
+    color: orange;  
+}
+
+a:hover {
+    color: gold;
+    background-color: purple;
+
+a:active {
+    margin: 0 5px;
+}
